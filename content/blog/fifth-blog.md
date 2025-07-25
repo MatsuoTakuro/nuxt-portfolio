@@ -1,10 +1,13 @@
 ---
 id: "5"
 title: "5つ目の記事"
-date: "20xx-03-05"
+date: "2025-03-05"
 image: "/images/pic5.jpg"
-excerpt: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
 ---
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+<!--more-->
 
 これが5つ目のブログ記事です。
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus est tellus, eget porta leo tristique a. Donec hendrerit massa leo, id tempus dolor vulputate et. Pellentesque consectetur dolor placerat euismod pellentesque. Integer scelerisque, augue ac ullamcorper sodales, neque lectus tristique turpis, id luctus lectus lorem eu tortor. In imperdiet semper accumsan. Etiam pellentesque libero et scelerisque vehicula. Nam quis justo mi. Cras erat ex, rhoncus id blandit id, commodo ac leo. In hac habitasse platea dictumst. Pellentesque id sapien quis justo dapibus ornare. Proin scelerisque quam quis sapien porttitor vehicula. Fusce a vehicula sem, at rhoncus augue. Mauris eros massa, tincidunt et lobortis sed, tempor vitae ligula.
