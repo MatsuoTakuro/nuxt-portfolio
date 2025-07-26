@@ -23,10 +23,13 @@
 <script setup>
 const blogsPerPage = 5
 
-const { data } = await useAsyncData("blogQueryIndex", () =>
+const currentPage = useRoute().params.pagination
+
+const { data } = await useAsyncData("blogQueryPaginate", () =>
     queryContent("/blog")
     .sort({ date: 1 })
     .limit(blogsPerPage)
+    .skip(blogsPerPage * (currentPage - 1))
     .find()
 )
 
@@ -35,7 +38,7 @@ const allBlogs = await queryContent("/blog").find()
 const numberPages = Math.ceil(allBlogs.length / blogsPerPage)
 
 useHead({
-    title: "Blog",
+    title: `Blog | ${currentPage}`,
     meta: [
         { name: "description", content: "Blog page description" }
     ],
